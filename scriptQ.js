@@ -114,7 +114,7 @@ function countDown(i, callback) {
 }
 
 window.onload = function () {
-  countDown(20, function () { //3600  
+  countDown(3600, function () { //3600  
     endQuiz()
   });
 
